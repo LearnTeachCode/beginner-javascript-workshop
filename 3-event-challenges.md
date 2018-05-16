@@ -86,7 +86,19 @@ Take a look at [this reference page listing *all* the built-in web browser event
 
 Let's work on building this game together! **Open this link and then *click the link at the top of the page* to code with us: https://glitch.com/edit/#!/dragon-defeater-v0-group**
 
-We'll need to use all the building blocks that we've learned how to use so far.
+<br/>
+
+:hammer: **First, what are we building?** Let's create one of the simplest video games ever invented: **a click-counter game!** Yes, there's an entire genre of games where the sole purpose is to click a button as many times as you can. (Usually there's a time limit, but we'll leave that out for now.)
+
+**Feature requirements:**
+
+  - There should be a button that the user can click on.
+  - And there should be a paragraph that says how many times the button was clicked.
+  - Every time the user clicks that button, the number of clicks should increase by one, and that new number should be displayed in the paragraph described above.
+  - Initially, that paragraph should say that the button was clicked **0** times.
+  - ... and that's all!
+
+We'll need to use *all* of the building blocks we've learned how to use so far.
 
 <br/>
 
