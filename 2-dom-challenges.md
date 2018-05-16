@@ -136,4 +136,4 @@ This is a Google challenge! Look online to figure out how to ***change the backg
 
 <hr/>
 
-:trophy: ***Great job!*** **[Next up: Events and event listeners](https://github.com/LearnTeachCode/beginner-javascript-workshop/edit/master/3-event-challenges.md)**
+:trophy: ***Great job!*** **[Next up: Events and event listeners](https://github.com/LearnTeachCode/beginner-javascript-workshop/blob/master/3-event-challenges.md)**
