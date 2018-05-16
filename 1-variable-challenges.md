@@ -1,4 +1,4 @@
-# Practice challenges: Variables and data types
+# Part 1: Variables and data types
 
 Time to tinker with code and break stuff! Below are several practice challenges where you either need to solve a bug, *create* a bug, or write some code from scratch.
 
