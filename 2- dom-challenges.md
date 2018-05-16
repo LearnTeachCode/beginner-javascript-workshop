@@ -2,7 +2,8 @@
 
 :point_left: ***[Previous section: Variables and data types](https://github.com/LearnTeachCode/beginner-javascript-workshop/blob/master/1-variable-challenges.md)***
 
-:bulb: The ***Document Object Model (DOM)*** refers to how the web browser sees a web page -- as a *hierarchy* of objects, each with its own set of characteristics (like the text inside it, the font, the color, etc). We use the term ***DOM element*** to refer to pieces of the web page like a paragraph (`<p>`), an image (`<img>`), a heading (`<h1>`), etc.
+
+The ***Document Object Model (DOM)*** refers to how the web browser sees a web page -- as a *hierarchy* of objects, each with its own set of characteristics (like the text inside it, the font, the color, etc). We use the term ***DOM element*** to refer to pieces of the web page like a paragraph (`<p>`), an image (`<img>`), a heading (`<h1>`), etc.
 
 Let's use JavaScript to access the **DOM** and modify the HTML and CSS of some web pages! For the following challenges, you'll be using the Glitch links provided to test out some example code, fix some bugs, and create some bugs of your own.
 
@@ -135,4 +136,4 @@ This is a Google challenge! Look online to figure out how to ***change the backg
 
 <hr/>
 
-:trophy: ***Great job!*** **Next up: Events and event listeners](https://github.com/LearnTeachCode/beginner-javascript-workshop/edit/master/3-event-challenges.md)**
+:trophy: ***Great job!*** **[Next up: Events and event listeners](https://github.com/LearnTeachCode/beginner-javascript-workshop/edit/master/3-event-challenges.md)**
