@@ -161,4 +161,4 @@ console.log(theCoderLife); // Don't modify this line either!
 <br/>
 <hr/>
 
-:trophy: ***Great job!*** **Next up: Interacting with the web page (Document Object Model)](https://github.com/LearnTeachCode/beginner-javascript-workshop/blob/master/2-dom-challenges.md)**
+:trophy: ***Great job!*** **[Next up: Interacting with the web page (Document Object Model)](https://github.com/LearnTeachCode/beginner-javascript-workshop/blob/master/2-dom-challenges.md)**
