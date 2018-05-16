@@ -84,7 +84,7 @@ Take a look at [this reference page listing *all* the built-in web browser event
 
 ## Group coding challenge:
 
-Let's work on building this game together! **Open this link and then *click the link at the top of the page* to code with us: https://glitch.com/edit/#!/dragon-defeater-v0-group**
+Let's work on building this game together! **Open this link and then *click the link at the top of the page* to code with us: https://dragon-defeater-v0-group.glitch.me/**
 
 <br/>
 
