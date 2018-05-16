@@ -1,4 +1,6 @@
-# Practice challenges: Events and event listeners
+# Part 3: Events and event listeners
+
+:point_left: ***[Previous section: Interacting with the web page (Document Object Model)](https://github.com/LearnTeachCode/beginner-javascript-workshop/blob/master/2-dom-challenges.md)***
 
 Events and event listeners allow you to respond to user input (among many other types of events), telling a section of your code to *wait* until a particular event occurs, and then execute one of your functions when triggered by the event.
 
@@ -90,4 +92,6 @@ We'll need to use all the building blocks that we've learned how to use so far.
 
 <hr/>
 
-:trophy: ***Woohoo!*** You can now say you've already written your first bit of *asynchronous code!* (A more advanced topic, but in short, this refers to the fact that now you know how to write code that *waits* for an event to happen.)
+:trophy: ***Woohoo!*** You're well on your way to mastering JavaScript and the basics of web development! This was only the tip of the iceberg of course, but you gotta start somewhere. :)
+
+Never stop tinkering, never stop breaking things, never stop building things! Go forth and code!
