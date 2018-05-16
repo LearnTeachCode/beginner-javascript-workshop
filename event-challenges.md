@@ -1,4 +1,4 @@
-# Event listener challenges
+# Practice challenges: Events and event listeners
 
 Events and event listeners allow you to respond to user input (among many other types of events), telling a section of your code to *wait* until a particular event occurs, and then execute one of your functions when triggered by the event.
 
