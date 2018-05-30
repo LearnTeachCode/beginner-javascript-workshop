@@ -16,9 +16,44 @@ Time to tinker with code and break stuff! Below are several practice challenges 
 
 <hr/>
 
-## Challenge 1: 
+## First: How to open your web browser's JavaScript console
 
-Run the following code, and then be sure to check your browser's JavaScript console to see what happens!
+:tv: You can also review our **4 min video on the console in Chrome: https://youtu.be/O_sJE_3jKZ4**
+
+<br/>
+
+**Keyboard shortcuts to open your browser's console:**
+
+|  | Chrome | Firefox | Safari |
+| --- | ---- | ---- | ---- |
+| **Windows:** | Ctrl + Shift + J | Ctrl + Shift + K | |
+| **Mac:** | Cmd + Opt + J | Cmd + Opt + K |  Cmd + Opt + C |
+
+<br/>
+
+Once your browser console is open, it should look something like this in the Chrome browser:
+
+![consoleexample](https://user-images.githubusercontent.com/1555022/40752516-b9c6f472-6424-11e8-9d9c-c49a86ecac1a.png)
+
+<br/>
+
+<hr/>
+
+## Setup for group challenges
+
+:star: [**Click here to open our shared Glitch project**](https://glitch.com/edit/#!/join/90ae8166-64f3-486f-9821-f2a725c842ee), where we'll all be writing code together for our first couple of challenges!
+
+  > Glitch lets us write code together in real time, so we can see each other typing at the same time (just like Google Docs)!
+
+Then be sure to click on `script.js` (in the left-side menu) to look at our JavaScript file.
+
+<br/>
+
+<hr/>
+
+## Group Challenge 1: 
+
+Let's run the following code, and then be sure to check your browser's JavaScript console to see what happens!
 
 ```javascript
 // Create a new variable
@@ -28,15 +63,27 @@ let myNerdyJoke = "Debugging is like being the detective in a crime drama where 
 console.log(myNerdyJoke);
 ```
 
-You'll see that `console.log()` allows us to display the value of a variable inside the web browser's console! This is a *very* useful tool for developers to see what's going on inside the code, since we can't see the computer's memory directly.
+<br/>
 
-  > If you didn't use `console.log()`, the variable would be stored in memory, but we wouldn't see it appear anywhere.
+You'll see that `console.log()` allows us to display the value of a variable inside the web browser's console! The code `console.log("hi")` would display the following inside your browser's console:
+
+![console-hi](https://user-images.githubusercontent.com/1555022/40753351-82252724-6428-11e8-857f-3acfa62ab270.png)
 
 <br/>
 
-## Challenge 2: 
+This is a *very* useful tool for developers to see what's going on inside the code, since we can't see the computer's memory directly. If you didn't use `console.log()`, the variable would be stored in memory, but we wouldn't see it appear anywhere.
 
-Let's take the code from the previous challenge and ***break it five different ways***!
+<br/>
+
+**Your challenge:** Create a new variable that contains a short sentence to introduce yourself, and then log it to the console!
+
+  > Note: Every variable name needs to be *unique*.
+
+<br/>
+
+## Group Challenge 2: 
+
+Let's take the code from the previous challenge and ***break it several different ways***!
 
 <br/>
 
@@ -46,16 +93,18 @@ Let's take the code from the previous challenge and ***break it five different w
   
   2. Which words/symbols need to stay the same?
 
-  3. Does the *order* matter for which of these two lines of code runs first? Why or why not?
+  3. Does the *order* matter for each of our two lines of code? Why or why not?  
 
 <br/>
 
 ## Challenge 3: 
 
+:star: ***For these next challenges, write your code directly in the browser's console.***
+
 A message should appear in the browser console, but the code is broken! Let's fix it up:
 
 ```javascript
-lot veryTrueStatement = "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime!";
+lot veryTrue = "Using a program: frustrating for a day. Learning to program: frustrating for a lifetime!";
 console.log(veryTrueStatement);
 ```
 
@@ -63,29 +112,18 @@ console.log(veryTrueStatement);
 
 ## Challenge 4: 
 
-This code isn't working either. :( Can you fix it so that the joke will appear in the browser console?
+I found a great joke [from the creator of Stack Overflow](https://twitter.com/codinghorror/status/506010907021828096), but the code below isn't showing the joke in the console like it's supposed to! Can you fix it?
 
 ```javascript
-let coderJoke = "My software never has bugs. It just develops random features.";
-Console.log(coderJoke);
+let anotherJoke = "There are three hard things in coding: naming things, and off-by-one errors."
+console.log("anotherJoke");
 ```
 
 <br/>
 
 ## Challenge 5: 
 
-I found a great joke [from the creator of Stack Overflow](https://twitter.com/codinghorror/status/506010907021828096) but the code below isn't showing the joke in the console like it's supposed to! Can you fix it?
-
-```javascript
-let anotherJoke = "There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors."
-console.log("anotherJoke");
-```
-
-<br/>
-
-## Challenge 6: 
-
-I could've sworn that computers were good at math, so why isn't my code working? Fix all the code below to make the computer actually *add up the numbers* and displays each result in the console:
+I could've sworn that computers were good at math, so why isn't my code working? Fix all the code below to make the computer actually *add up the numbers* and display each result in the console:
 
 ```javascript
 // The answer should be 9, unless the rules of addition have changed since I finished school?!
@@ -93,19 +131,13 @@ console.log("4" + "5");
 
 // Last time I checked, 2 + 2 was 4! What's going on here?
 console.log("2" + 2);
-
-let x = 1;
-let y = 2;
-let z = 3;
-// The code below is supposed to display the number 6
-console.log('x' + 'y' + 'z');
 ```
 
 **Discuss:**
 
   1. Why did the broken code work the way it did?
-  2. Why are computers so stupid?
-  3. Does it matter whether we use single or double quotation marks?
+  2. What's the difference between `2` and `"2"`?
+  3. Why are computers so stupid?
 
 <br/>
 
@@ -115,19 +147,28 @@ So it turns out that in JavaScript, the plus sign (`+`) is used for two differen
 
 In computer science jargon, we use the word ***string*** to refer to any data that should be treated as a word, a label, or literally a bunch of letters and symbols *strung* together like [those alphabet beads that you can *string* together into a necklace](https://www.etsy.com/market/alphabet_beads)!
 
-Here's another fancy word that will make you sound like a computer scientist: ***concatenation***. It means "chaining things together", just like making a necklace from alphabet beads. So when we write `"hello" + " world!"` in our code, we're *concatenating* the two strings `"hello"` and `" world!"` to create one longer string! In this context, the plus sign (`+`) is called the *concatenation operator*.
+<br/>
+
+:star: Here's another fancy word that will make you sound like a computer scientist: ***concatenation***.
+
+It means "chaining things together", just like making a necklace from alphabet beads. So when we write `"hello" + " world!"` in our code, we're *concatenating* the two strings `"hello"` and `" world!"` to create one longer string! In this context, the plus sign (`+`) is called the *concatenation operator*.
 
 <br/>
 
-## Challenge 7: 
+## Challenge 6: 
 
-Create **three variables** of your own to represent **your name**, **your favorite food**, and **your favorite number**. Be sure to give your variables descriptive names, and use [**camelCase style**](https://en.wikipedia.org/wiki/Camel_case) (where `variableNamesLookLikeThis`, which is the most common convention among JavaScript programmers).
+The code below should display this sentence in the console: `"Hello, my name is Bob Loblaw and I write the Bob Loblaw Law Blog!"`. But it's not working... Can you fix it?
 
-Next, **display a message in the browser's console** that combines each of your three variables into a sentence where you awkwardly introduce yourself by saying something like `"Hi there! My name is Liz, my favorite food is chocolate, and my favorite number is 42!"`
+```javascript
+let myName = "Bob Loblaw";
+let myHobby = "writing the Bob Loblaw Law Blog";
+
+console.log("Hello, my name is" + myName + and I myHobby + "!";
+```
 
 <br/>
 
-## Challenge 8:
+## Challenge 7:
 
 Complete the unfinished code below to update the variable named `bugsSolvedToday` to become the **sum of its previous value plus one**, but *without modifying the code already provided below*:
 
@@ -157,6 +198,12 @@ let theCoderLife = "Debug it again"; // Don't modify this line of code!
 
 console.log(theCoderLife); // Don't modify this line either!
 ```
+
+<br/>
+
+## Group review:
+
+:star: [**Click here to open our shared Glitch project again**](https://glitch.com/edit/#!/join/90ae8166-64f3-486f-9821-f2a725c842ee) to review and practice a bit more together!
 
 <br/>
 <hr/>

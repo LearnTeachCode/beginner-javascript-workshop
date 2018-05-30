@@ -134,6 +134,16 @@ This is a Google challenge! Look online to figure out how to ***change the backg
 
 <br/>
 
+## Group review:
+
+:star: [**Click here to open our shared Glitch project again**](https://glitch.com/edit/#!/join/90ae8166-64f3-486f-9821-f2a725c842ee) to review and practice a bit more together!
+
+**Your challenge:**
+  1. Create a new paragraph in the HTML file with a unique `id` attribute (you can just use your name)
+  2. Then in the JavaScript file, change the `textContent` of your unique paragraph to display a sentence about yourself!
+  3. Bonus: use JavaScript to change the background color of your unique paragraph.
+
+<br/>
 <hr/>
 
 :trophy: ***Great job!*** **[Next up: Events and event listeners](https://github.com/LearnTeachCode/beginner-javascript-workshop/blob/master/3-event-challenges.md)**
