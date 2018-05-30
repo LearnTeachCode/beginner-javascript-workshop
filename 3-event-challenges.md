@@ -48,12 +48,6 @@ For these next challenges, **remix this Glitch project: https://glitch.com/edit/
 
 ## Challenge 2:
 
-Add *one additional line of code* to use the `console.log()` function a *second* time, so that when the user clicks anywhere on the page, the browser console should display *two messages* from *two separate lines of code* in your JavaScript file.
-
-<br/>
-
-## Challenge 3:
-
 Using what you learned in our previous set of challenges, add one more additional line of code so that when the user clicks on the page, **the entire body of the document** will be replaced with the text `"You clicked on the page!"`.
 
 <br/>
@@ -74,7 +68,7 @@ For this game, the user should only be able to click on the *button*, not the en
 
 <br/>
 
-## Challenge 6:
+## Bonus challenge:
 
 There are *lots* of built-in events that web browsers provide for you to use in your code!
 
