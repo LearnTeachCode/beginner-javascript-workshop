@@ -55,7 +55,7 @@ Let's take the code from the previous challenge and ***break it five different w
 A message should appear in the browser console, but the code is broken! Let's fix it up:
 
 ```javascript
-lot veryTrueStatement = "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime!";
+lot veryTrue = "Using a program: frustrating for a day. Learning to program: frustrating for a lifetime!";
 console.log(veryTrueStatement);
 ```
 
@@ -66,7 +66,7 @@ console.log(veryTrueStatement);
 This code isn't working either. :( Can you fix it so that the joke will appear in the browser console?
 
 ```javascript
-let coderJoke = "My software never has bugs. It just develops random features.";
+let coderJoke = "My software never has bugs. It just develops random features!";
 Console.log(coderJoke);
 ```
 
@@ -77,7 +77,7 @@ Console.log(coderJoke);
 I found a great joke [from the creator of Stack Overflow](https://twitter.com/codinghorror/status/506010907021828096) but the code below isn't showing the joke in the console like it's supposed to! Can you fix it?
 
 ```javascript
-let anotherJoke = "There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors."
+let anotherJoke = "There are three hard things in coding: naming things, and off-by-one errors."
 console.log("anotherJoke");
 ```
 
